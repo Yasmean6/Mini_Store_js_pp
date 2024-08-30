@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mini Store|Register Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header_content d-flex justify-content-between">
+          <a
+            href="./index.html"
+            class="logo"
+            style="
+              font-weight: 700;
+              font-size: 32px;
+              text-decoration: none;
+              color: #403d39 !important;
+            "
+            >Mini Store<span style="color: #c1121f!important">.</span></a
+          >
+          <nav class="w-50">
+            <ul id="links" class="d-flex justify-content-end">
+              <li><a href="./login.html" style="color: #c1121f!important">Sign In</a></li>
+              <li><a href="./register.html" style="color: #c1121f!important">Sign Up</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="Section-form " >
+      <h2 style="color: #403d39 !important;">Register Form<span style="color:#c1121f">.</span></h2>
+      <form class="shadow-sm">
+        <div class="row">
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="First name"
+              id="username"
+            />
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" />
+          </div>
+        </div>
+        <input
+          type="email"
+          placeholder="Enter Your Email.."
+          id="email"
+          class="mb-4"
+        />
+        <input
+          type="password"
+          placeholder="Enter Your Password.."
+          id="password"
+          class="mb-4"
+        />
+
+        <input
+          type="submit"
+          value="Sign Up"
+          id="sign_up"
+          class="submit-btn btn btn-dark w-50 m-auto mt-5 d-block font-weight-bold"
+        /><span
+          class="mt-3 mr-2 d-inline-block font-weight-bold"
+          style="color: #403d39"
+          >Have an account?</span
+        ><a href="./login.html" class="colorAndFont" style="color:#c1121f">Login</a>
+      </form>
+    </section>
+
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="js/register.js"></script>
+    <!-- <script src="js/login.js"></script> -->
+  </body>
+</html>

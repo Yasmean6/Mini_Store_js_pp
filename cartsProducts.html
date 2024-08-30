@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Online Shopping|Login Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header_content d-flex justify-content-between">
+          <a href="./index.html" class="logo" style="font-weight: 700; font-size: 32px; text-decoration: none; color:#403d39 !important; ">Mini Store<span style="color:#c1121f !important;">.</span></a>
+          <nav class="w-50">
+            <ul id="links" class="d-flex justify-content-end">
+              <li><a href="./login.html">Sign In</a></li>
+              <li><a href="./register.html">Sign Up</a></li>
+            </ul>
+            <ul id="user_info" class="font-weight-bold mr-5 w-100" style="margin-right: 100px !important; flex:5 !important">
+              <li>
+                <a href="#" id="user" class="m-auto font-weight-bold" style="color:#403d39 !important; font-size: 18px;"></a>
+              </li>
+              <li onClick="showProducts()">
+                <i class="fa-solid fa-cart-shopping d-inline-block" >
+                  <span class="badge badge-secondary position-absolute"></span>
+                  <span class="d-inline-block pl-1 cart-shopping-text" style="font-size: 15px;">Cart</span></i
+                >
+                <a href="#" id="logout" class="d-inline-block font-weight-bold" style="color:#c1121f !important"
+                  >Logout</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <div class="carts_products shadow">
+                <div></div>
+                <a href="./cartsProducts.html" class="font-weight-bold"
+                  >View all products...</a
+                >
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="home mb-5">
+      <div class="container w-75">
+          <div class="products w-100 d-flex justify-content-between flex-wrap">
+          </div>
+          <div class="noProducts"></div>
+      </div>
+    </section>
+
+    <hr>
+    <br>
+    <section class="totalPrice "></section>
+    
+    <br>
+    <hr>
+    <br>
+    
+    <section class="home fav-con">
+      <div class="container w-75">
+        <h2 class="" style="text-align: center;">Favourite</h2>
+        <div class="fav-line bg-danger m-auto " style="height: 3px; width:100px; margin-bottom: 50px !important;"></div>
+        <div class="favoritesItems w-100 d-flex justify-content-between owl-carousel owl-theme m-auto">
+        </div>
+          <div class="noProducts"></div>
+
+      </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/carts.js"></script>
+    <script src="js/fevorites.js"></script>
+  </body>
+</html>

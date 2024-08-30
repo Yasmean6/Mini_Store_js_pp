@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif !important;
+}
+
+ul, nav{
+    list-style: none;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.robot-font{
+    font-family: "Roboto", sans-serif ;
+}
+
+.btn:focus, .btn:hover{
+    outline: none;
+    box-shadow: none
+}
+
+input:not(#search){
+    outline: none !important;
+    border:none !important;
+}
+
+input:focus:not(#search), input:hover:not(#search){
+    outline: none !important;
+    box-shadow: none !important;
+    border:none !important;
+}
+/* ---------------------------- */
+
+header{
+    padding: 10px  0;
+}
+
+.header_content {
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px !important; 
+    text-decoration: none; 
+    font-family: "Roboto", sans-serif;
+}
+
+nav li a {
+    display: block;
+    font-weight: 500;
+    min-width:60px;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+nav ul#user_info{
+    display: none;
+    justify-content:space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+
+.fa-user{
+    background-color:#c1121f  ;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+#user_info .fa-cart-shopping{
+    font-size:18px;
+    cursor: pointer;
+    color:#003049 ;
+}
+
+.cart-shopping-text{
+    font-size: 17px !important;
+    font-family: "Roboto", sans-serif;
+
+}
+#user_info .badge{
+    font-size: 9px;
+    top: 28px;
+    right:14.5%;
+    border-radius: 50%;
+    padding: 4px;
+    background-color:#c1121f
+
+}
+
+#user{
+    position: absolute;
+    top:4.5%;
+    left:45%;
+    color:#c1121f !important;
+    font-family: "Playwrite AU QLD", cursive;
+
+}
+
+.carts_products{
+    position: absolute;
+    left: 77%;
+    top: 13%;
+    background-color: #f3f0f0;
+    padding: 10px;
+    width: 280px;
+    text-align: center;
+    border: 1px solid #ddd;
+    display: none;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+
+.carts_products a{
+    display: block;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #c1121f;
+    color: white !important;
+    padding: 8px 0px;
+    border-radius: 10px;
+    
+}
+
+.home-products{
+    border: 2px solid #003049;
+    padding: 7px 0;
+    border-radius: 10px;
+}
+
+.qty-num{
+    color: white;
+    padding:4px 10px;
+    background-color: #c1121f;
+    border-radius: 50%;
+}
+
+.fa-plus, .fa-minus{
+    margin-left:auto;
+    cursor: pointer;
+}
+
+/* --------------FORM----------- */
+
+.Section-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align:center;
+}
+
+.Section-form h2{
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: #c1121f  ;
+    font-family: "Playwrite AU QLD", cursive;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.Section-form form{
+    background-color: #eae8e4;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.Section-form form input{
+    border-radius: 30px;
+    display: block;
+    width: 100%;
+    margin:15px 0;
+    height: 40px;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    outline: 0;
+}
+
+
+.submit-btn{
+    font-family: "Playwrite AU QLD", cursive;
+    background-color: #c1121f;
+    margin-top:20px !important;
+}
+
+.submit-btn:hover, .submit-btn:focus{
+    background-color: #980d16 !important;
+    border: none;
+}
+
+
+/* -------------------PRODUCTS-------------------- */
+
+.products{
+    width: 60%;
+    margin: 10px 0;
+}
+
+.product-item{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    width: 31%;
+    margin: 20px 0;
+    transition: .7s;
+}
+
+.product-item:hover{
+    transform: translateY(-10px);
+}
+
+
+.product-item-actions{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px
+}
+
+.product-item-actions button{
+    width: 60%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product-item-actions .fa-heart{
+    margin-top:10px;
+    color: #a09e9e;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+
+/* --------------------------- */
+
+.favoritesItems{
+    height: 300px;
+    width: 100% !important;
+    flex-wrap: wrap;
+}
+
+.favoritesItems .product-item{
+    width: 270px !important;
+}
+
+.favoritesItems .product-item:hover{
+    border: 1px solid #c1121f;
+}
+
+/* //////// */
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #f8f9fa;
+    border-color: #c1121f;
+}
+
+.custom-control-input:checked ~ .custom-control-label::after {
+    background-color: #c1121f;
+    border: none;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
+}
+
+.custom-control-label::before {
+    border: 1px solid #c1121f;
+}
+
+
+/* ----------------------------- */
+
+.totalPrice{
+    text-align: center;
+}
+.totalPrice p{
+    font-weight:900px !important;
+    
+}
+
+.total-Price-text{
+    color:#003049;
+    font-size:30px;
+    border: 2px solid #003049;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.total-Price-num{
+    color:#c1121f;
+    font-size:25px;
+}
+
+.fav-line{
+    transition: 1s;
+}
+
+.fav-con{
+    cursor: pointer;
+    
+}
+
+.fav-con:hover .fav-line{
+    width:150px !important;
+}
+/* ------------------------- */
+/* //////// */
+.btn-remove{
+    background-color: #c1121f; /* اللون البرتقالي */
+    border-color: #c1121f; /* لون الحدود */
+    color: #fff;
+    outline:none
+}
+
+.btn-remove:hover, .btn-remove:focus{
+    background-color: #c1121f;
+    outline:none;
+    color: #fff;
+    box-shadow: none;
+}
