@@ -4,7 +4,7 @@ let products = [
       product: "Iphon 10",
       price: "980$",
       category: "mobile",
-      imgURL: "../images/product-item1.jpg",
+      imgURL: "/images/product-item1.jpg",
       qty: 1,
     },
     {
@@ -12,7 +12,7 @@ let products = [
       product: "Pink Watch",
       price: "870$",
       category: "smart watch",
-      imgURL: "../images/product-item6.jpg",
+      imgURL: "/images/product-item6.jpg",
       qty: 1,
     },
     {
@@ -28,7 +28,7 @@ let products = [
       product: "Iphon 8",
       price: "780$",
       category: "mobile",
-      imgURL: "../images/product-item3.jpg",
+      imgURL: "/images/product-item3.jpg",
       qty: 1,
     },
     {
@@ -44,7 +44,7 @@ let products = [
       product: "Iphon 13",
       price: "1500$",
       category: "mobile",
-      imgURL: "../images/product-item4.jpg",
+      imgURL: "/images/product-item4.jpg",
       qty: 1,
     },
     {
@@ -52,7 +52,7 @@ let products = [
       product: "Spotted Watch",
       price: "750$",
       category: "smart watch",
-      imgURL: "../images/product-item8.jpg",
+      imgURL: "/images/product-item8.jpg",
       qty: 1,
     },
     {
@@ -60,7 +60,7 @@ let products = [
       product: "Iphon 12",
       price: "1300$",
       category: "mobile",
-      imgURL: "../images/product-item5.jpg",
+      imgURL: "/images/product-item5.jpg",
       qty: 1,
     },
     {
@@ -68,7 +68,7 @@ let products = [
       product: "Black Watch",
       price: "650$",
       category: "smart watch",
-      imgURL: "../images/product-item10.jpg",
+      imgURL: "/images/product-item10.jpg",
       qty: 1,
     },
     
